@@ -18,6 +18,9 @@ The goal of this project was to call a function on a previously made solidity co
 - msg.sender is what initiated the request. This will be the function in the contract B, and `msg.sender = address of contract B
 - tx.origin is what initiated the entire txn. This is the EOA you connected to using your private key in the deploy.js.
 
+See Succesful txn - [https://goerli.etherscan.io/tx/0x56d27eb8822f6b144b525ef44d3512e1290695e36462eb46abfad136564a7b80](https://goerli.etherscan.io/tx/0x56d27eb8822f6b144b525ef44d3512e1290695e36462eb46abfad136564a7b80)
+
+
 # Why does this matter?
 - Someone (EOA) can call a fn on a smart contract and interact with another smart contract. Make purchases, acquire NFT, transfer funds, etc.
 - You can make calls from one smart contract to another, and track the account which made it.

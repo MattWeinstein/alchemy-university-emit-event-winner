@@ -15,6 +15,3 @@ main().catch((error) => {
     console.error(error)
     process.exitCode = 1
 })
-
-
-// Succesful txn - https://goerli.etherscan.io/tx/0x56d27eb8822f6b144b525ef44d3512e1290695e36462eb46abfad136564a7b80
